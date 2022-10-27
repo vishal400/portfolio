@@ -1,0 +1,18 @@
+.outer-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1380px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.downArrow{
+    margin-top: 0px;
+}
