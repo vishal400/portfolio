@@ -4,6 +4,7 @@ import classes from "./Home.module.css";
 import {assets} from '../../../assets/ImportAssets'
 import AboutMe from "./AboutMe";
 import WorkExperience from "./WorkExperience";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
           
           <AboutMe/>
           <WorkExperience/>
+          <Projects/>
         </div>
       </div>
     </Fragment>

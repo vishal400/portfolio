@@ -1,0 +1,38 @@
+.footer{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .container{
+    width: 1344px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-color: white; */
+}
+
+.footer .contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 2rem;
+    color: white;
+    width: 33%;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer .contact{
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .footer p{
+        width: 100%;
+        text-align: left;
+        margin-top: 4px;
+    }
+}

@@ -1,0 +1,19 @@
+.projects{
+    width: 80%;
+    float: right;
+    margin-top: 6vw;;
+    margin-bottom: 5vw;
+}
+
+.projects h1{
+    width: 100%;
+    text-align: right;
+    font-size: 6rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .projects{
+        width: 100%;
+    }
+}
+
