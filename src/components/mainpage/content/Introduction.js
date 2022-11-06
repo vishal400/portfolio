@@ -12,8 +12,8 @@ const Introduction = () => {
           Vishal Waliyan..
         </h1>
         <p>
-          I like to build apps using various web technologies like react, nodejs
-          and so on. I also like to solve DSA problems
+          I am a web developer from India. I really like the concept of creating
+          anything you can think of with programming.
         </p>
         <div className={classes["social-container"]}>
           <SocialMedia src={assets.GitHub} />

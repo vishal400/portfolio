@@ -62,8 +62,10 @@ h1 {
   height: 21px;
   width: 30px;
   padding: 20px 16px;
-  /* top: 1.2rem; */
 }
+.navbar .toggle-button .toggleselect{
+    background: #555;
+  }
 
 .toggle-button .bar {
   height: 3px;

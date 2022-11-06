@@ -4,6 +4,7 @@ import classes from "./Navbar.module.css";
 const Navbar = () => {
   const [expand, setExpand] = useState(false);
   let itemlistclass = `${classes["item-list"]} ${classes["inactive"]}`;
+  let toggleclass = `${classes["toggle-button"]}`
 
   const expandHandler = () => {
     console.log(expand);
@@ -13,24 +14,31 @@ const Navbar = () => {
 
   if (expand) {
     itemlistclass = classes["item-list"];
+    toggleclass = `${classes["toggle-button"]} ${classes["toggleselect"]}}`
   } else {
     itemlistclass = `${classes["item-list"]} ${classes["inactive"]}`;
+    toggleclass = `${classes["toggle-button"]}`
+  }
+
+  const clickHandler = (e) => {
+    //e.preventDefault();
+    setExpand(false);
   }
 
   const navLinks = (
     <div className={itemlistclass}>
-      <ul>
+      <ul onClick={clickHandler}>
         <li>
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#about">About me</a>
+          <a href="#about" >About me</a>
         </li>
         <li>
-          <a href="#experience">Work Experience</a>
+          <a href="#experience" >Work Experience</a>
         </li>
         <li>
-          <a href="#projects">My projects</a>
+          <a href="#projects" >My projects</a>
         </li>
         <li>
           <a href="">
@@ -44,7 +52,7 @@ const Navbar = () => {
   return (
     <div className={classes.navbar}>
       <h1>Logo</h1>
-      <a className={classes["toggle-button"]} onClick={expandHandler}>
+      <a className={toggleclass} onClick={expandHandler}>
         <span className={classes.bar}></span>
         <span className={classes.bar}></span>
         <span className={classes.bar}></span>
