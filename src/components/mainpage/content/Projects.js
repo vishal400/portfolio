@@ -4,10 +4,10 @@ import classes from './Projects.module.css'
 
 const Projects = () => {
   return (
-    <div className={classes.projects}>
+    <div className={classes.projects} id="projects">
         <h1>Projects</h1>
         <Project/>
-        <Project/>
+        <Project  order="order2"/>
         <Project/>
     </div>
   )

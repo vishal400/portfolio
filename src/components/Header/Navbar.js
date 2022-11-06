@@ -21,13 +21,16 @@ const Navbar = () => {
     <div className={itemlistclass}>
       <ul>
         <li>
-          <a href="">Work Experience</a>
+          <a href="#">Home</a>
         </li>
         <li>
-          <a href="">About me</a>
+          <a href="#about">About me</a>
         </li>
         <li>
-          <a href="">My projects</a>
+          <a href="#experience">Work Experience</a>
+        </li>
+        <li>
+          <a href="#projects">My projects</a>
         </li>
         <li>
           <a href="">
@@ -41,7 +44,7 @@ const Navbar = () => {
   return (
     <div className={classes.navbar}>
       <h1>Logo</h1>
-      <a href="#" className={classes["toggle-button"]} onClick={expandHandler}>
+      <a className={classes["toggle-button"]} onClick={expandHandler}>
         <span className={classes.bar}></span>
         <span className={classes.bar}></span>
         <span className={classes.bar}></span>

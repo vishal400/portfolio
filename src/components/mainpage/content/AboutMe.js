@@ -4,7 +4,7 @@ import {assets} from '../../../assets/ImportAssets'
 
 const AboutMe = () => {
   return (
-    <div className={classes["aboutme-container"]}>
+    <div className={classes["aboutme-container"]} id="about">
       <h1>About me</h1>
       <div className={classes.para}>
         <p>

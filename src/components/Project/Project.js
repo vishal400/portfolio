@@ -3,14 +3,14 @@ import Button from "../UI/Button";
 import classes from "./Project.module.css";
 import { assets } from "../../assets/ImportAssets";
 
-const Project = () => {
+const Project = (props) => {
 
     const btnoneclass = `${classes.button} ${classes.button1}`;
     const btntwoclass = `${classes.button} ${classes.button2}`;
 
   return (
     <div className={classes.projectcontainer}>
-      <img />
+      <img className={classes[props.order]}/>
       <div className={classes.detailscontainer}>
         <p>
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

@@ -3,10 +3,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    background: #222;
 }
 
 .footer .container{
-    width: 1344px;
+    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     /* background-color: white; */
@@ -19,7 +20,7 @@
 }
 
 .footer p{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: white;
     width: 33%;
 }

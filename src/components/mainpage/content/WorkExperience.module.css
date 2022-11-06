@@ -1,7 +1,6 @@
 .container{
     position: block;
-    margin-top: 8vw;
-    margin-bottom: 5vw;
+    padding-top: 6vw;
 }
 
 .work-container{

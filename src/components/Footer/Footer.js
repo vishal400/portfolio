@@ -8,7 +8,7 @@ const Footer = () => {
         <h1>Let's Connect</h1>
         <div className={classes.contact}>
           <p>vishal.waliyan47@gmail.com</p>
-          <p>copyright</p>
+          <p>Copyright © 2022 VW</p>
           <p>+91 9540000695</p>
         </div>
       </div>

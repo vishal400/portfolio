@@ -13,7 +13,8 @@ const Home = () => {
         <div className={classes.container}>
           <Introduction />
           <div className={classes.downArrow}>
-            <img src={assets.DownArrow} alt='down arrow' />
+            <a href="#about"><img src={assets.DownArrow} alt='down arrow' /></a>
+            
           </div>
           
           <AboutMe/>
