@@ -41,7 +41,7 @@ const Navbar = () => {
           <a href="#projects" >My projects</a>
         </li>
         <li>
-          <a href="">
+          <a href="https://drive.google.com/file/d/10d3WtnC9KdjeU50mREhr-HeGwocUpSsS/view?usp=sharing">
             <div className={classes.download}>Download Resume</div>
           </a>
         </li>
