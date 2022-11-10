@@ -4,24 +4,23 @@ import classes from "./Project.module.css";
 import { assets } from "../../assets/ImportAssets";
 
 const Project = (props) => {
-
-    const btnoneclass = `${classes.button} ${classes.button1}`;
-    const btntwoclass = `${classes.button} ${classes.button2}`;
+  const btnoneclass = `${classes.button} ${classes.button1}`;
+  const btntwoclass = `${classes.button} ${classes.button2}`;
 
   return (
     <div className={classes.projectcontainer}>
-      <img className={classes[props.order]}/>
+      <img src={props.src} className={classes[props.order]} />
       <div className={classes.detailscontainer}>
         <p>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
+          {props.description}
         </p>
         <div className={classes.buttoncontainer}>
-          <a href="#" className={btnoneclass}>
-            View project
-          </a>
-          <a href="#" className={btntwoclass}>
+          {props.live && (
+            <a href={props.live} className={btnoneclass}>
+              View project
+            </a>
+          )}
+          <a href={props.code} className={btntwoclass}>
             source code
           </a>
         </div>

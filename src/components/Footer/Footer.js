@@ -9,7 +9,7 @@ const Footer = () => {
         <div className={classes.contact}>
           <p>vishal.waliyan47@gmail.com</p>
           <p>Copyright © 2022 VW</p>
-          <p>+91 9540000695</p>
+          <p>+91 9540000795</p>
         </div>
       </div>
     </div>

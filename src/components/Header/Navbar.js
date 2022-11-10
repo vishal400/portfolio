@@ -51,7 +51,7 @@ const Navbar = () => {
 
   return (
     <div className={classes.navbar}>
-      <h1>Logo</h1>
+      <h1>VW</h1>
       <a className={toggleclass} onClick={expandHandler}>
         <span className={classes.bar}></span>
         <span className={classes.bar}></span>

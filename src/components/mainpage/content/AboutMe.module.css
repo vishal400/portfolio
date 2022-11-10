@@ -38,4 +38,24 @@
 
 .aboutme-container .skillcontainer img{
     margin-left: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 560px) {
+    .aboutme-container .skillcontainer{
+        display: inline;
+    }
+
+    .aboutme-container .skillcontainer img{
+        margin: 15px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .aboutme-container p{
+        width: 100%;
+        text-align: justify;
+    }
 }

@@ -16,8 +16,9 @@ const Introduction = () => {
           anything you can think of with programming.
         </p>
         <div className={classes["social-container"]}>
-          <SocialMedia src={assets.GitHub} />
-          <SocialMedia src={assets.LinkedIn} />
+          <a href="https://github.com/vishal400"><SocialMedia src={assets.GitHub} /></a>
+          <a href="https://www.linkedin.com/in/vishal-waliyan-b8969a16a/"><SocialMedia src={assets.LinkedIn} /></a>
+          
         </div>
       </div>
       <img src={assets.SoftwareDeveloper}></img>
