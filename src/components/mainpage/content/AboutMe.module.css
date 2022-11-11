@@ -59,3 +59,9 @@
         text-align: justify;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .aboutme-container h1{
+        font-size: 5rem;
+    }
+}

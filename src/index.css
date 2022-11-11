@@ -16,6 +16,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 300px) {
+  html{
+    font-size: 6px;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
