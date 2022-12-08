@@ -7,9 +7,10 @@ const workdata = [
     title: "System Engineer",
     date: "2021 Mar - Present",
     description: [
-      "Handled the admin/data handling work for a telecom company.",
-      "Responsible for operating, coordinating and maintenance of database management systems.",
-      "Creating databases, batch user and user roles and so on.",
+      "Responsible for creating end-points, middlewares and fixing bugs",
+      "Also worked on reactjs. Contributed in the building frontend along with validation on the client side",
+      "Debugging and troubleshooting the existing code",
+      "Ensuring the quality and timelines of the deliverables"
     ],
   },
   {
