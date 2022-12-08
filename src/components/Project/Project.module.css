@@ -13,6 +13,7 @@
   height: 250px;
   width: 45%;
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .projectcontainer .detailscontainer {
