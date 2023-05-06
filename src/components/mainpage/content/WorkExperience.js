@@ -4,7 +4,7 @@ import classes from "./WorkExperience.module.css";
 
 const workdata = [
   {
-    title: "System Engineer",
+    title: "Senior Systems Engineer",
     date: "2021 Mar - Present",
     description: [
       "Experience in software development, maintenance, testing, and troubleshooting on Stibo Master Data Management (MDM) for the retail industry.",
