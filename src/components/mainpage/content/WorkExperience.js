@@ -7,10 +7,9 @@ const workdata = [
     title: "System Engineer",
     date: "2021 Mar - Present",
     description: [
-      "Responsible for creating end-points, middlewares and fixing bugs",
-      "Also worked on reactjs. Contributed in the building frontend along with validation on the client side",
-      "Debugging and troubleshooting the existing code",
-      "Ensuring the quality and timelines of the deliverables"
+      "Experience in software development, maintenance, testing, and troubleshooting on Stibo Master Data Management (MDM) for the retail industry.",
+      "Working as Javascript developer for implementation of business rules in STEP (Stibo Systems Enterprise Platform) environment using Stibo SDK.",
+      "Improved existing business rules to reduce the time complexities and improving overall functionalities such as reducing the time taken for linking assets to classifications to almost 50 percent.",
     ],
   },
   {
@@ -20,7 +19,7 @@ const workdata = [
       "Worked as an android java developer for a medical related android app",
       "Implemented the chat and video call feature and handled the user interface work for chat feature",
       "Used Agora SDK to implement the chat/video call feature.",
-      "Worked on broadcast recievers, notifications, etc"
+      "Worked on broadcast recievers, notifications, etc",
     ],
   },
 ];
@@ -41,8 +40,8 @@ const WorkExperience = () => {
           <div className={`${classes.ind}`} />
         </div> */}
 
-        <Work data={workdata[0]}/>
-        <Work data={workdata[1]}/>
+        <Work data={workdata[0]} />
+        <Work data={workdata[1]} />
       </div>
     </div>
   );
